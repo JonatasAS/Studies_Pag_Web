@@ -131,8 +131,12 @@ form button:hover {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.7);
+  
   display: grid;
   place-content: center;
+
+  opacity: 0;
+  visibility: hidden;
 }
 
 .modal {
@@ -158,7 +162,7 @@ form button:hover {
 
 .modal-wrapper.open {
   opacity: 1;
-  visibility: hidden;
+  visibility: visible;
 }
 
 /*alert error*/
