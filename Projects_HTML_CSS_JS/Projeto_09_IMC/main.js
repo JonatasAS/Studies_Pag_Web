@@ -17,6 +17,7 @@ const Modal = {
   }
 }
 
+// Formulario
 form.onsubmit = event => {
   event.preventDefault()
 
@@ -30,10 +31,12 @@ form.onsubmit = event => {
   Modal.open()
 }
 
+// Botão para fechar o modal
 Modal.buttonClose.onclick = () => {
   Modal.close()
 }
 
+// Logica da formula do IMC
 function IMC(weight, height) {
   return (weight / ((height / 100) ** 2)).toFixed(2)
 }
