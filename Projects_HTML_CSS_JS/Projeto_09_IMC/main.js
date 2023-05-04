@@ -3,6 +3,7 @@ const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
 
+// Dados do modal
 const Modal = {
   wrapper: document.querySelector('.modal-wrapper'),
   message: document.querySelector('.modal .title span'),
