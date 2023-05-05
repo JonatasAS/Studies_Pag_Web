@@ -16,6 +16,7 @@ form.onsubmit = event => {
 
   Modal.message.innerText = message
   Modal.open()
+  
 }
 
 
