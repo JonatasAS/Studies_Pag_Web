@@ -1,21 +1,8 @@
+import { Modal } from "./modal.js"
 // Variaveis 
 const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
-
-// Dados do modal
-const Modal = {
-  wrapper: document.querySelector('.modal-wrapper'),
-  message: document.querySelector('.modal .title span'),
-  buttonClose: document.querySelector('.modal button.close'),
-
-  open: function () {
-    Modal.wrapper.classList.add('open')
-  },
-  close() {
-    Modal.wrapper.classList.remove('open')
-  }
-}
 
 // Formulario
 form.onsubmit = event => {
@@ -31,10 +18,6 @@ form.onsubmit = event => {
   Modal.open()
 }
 
-// Botão para fechar o modal
-Modal.buttonClose.onclick = () => {
-  Modal.close()
-}
 
 // Logica da formula do IMC
 function IMC(weight, height) {
