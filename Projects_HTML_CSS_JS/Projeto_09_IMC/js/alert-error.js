@@ -7,4 +7,5 @@
   close() {
     AlertError.element.classList.remove('open')
   }
+  
 }
