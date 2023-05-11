@@ -28,6 +28,8 @@ form.onsubmit = event => {
 
 }
 
+
+
 function displayResultMessage(result) {
   const message = `Seu IMC é de ${result}`
 
@@ -35,3 +37,6 @@ function displayResultMessage(result) {
   Modal.open()
 }
 
+// Evento para fechar a mensagem de erro
+inputHeight.oninput = () => AlertError.close()
+inputWeight.oninput = () => AlertError.close()
