@@ -7,6 +7,10 @@ const form = document.querySelector('form')
 const inputWeight = document.querySelector('#weight')
 const inputHeight = document.querySelector('#height')
 
+// Evento para fechar a mensagem de erro
+inputHeight.oninput = () => AlertError.close()
+inputWeight.oninput = () => AlertError.close()
+
 // Formulario
 form.onsubmit = event => {
   event.preventDefault()
@@ -36,6 +40,3 @@ function displayResultMessage(result) {
   Modal.open()
 }
 
-// Evento para fechar a mensagem de erro
-inputHeight.oninput = () => AlertError.close()
-inputWeight.oninput = () => AlertError.close()
