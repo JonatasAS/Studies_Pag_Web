@@ -28,8 +28,7 @@ form.onsubmit = event => {
 
 }
 
-
-
+// Função para apresentar mensagem e abrir o modal
 function displayResultMessage(result) {
   const message = `Seu IMC é de ${result}`
 
