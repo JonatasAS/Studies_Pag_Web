@@ -6,13 +6,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-root {
+:root {
   font-size: 62.5%;
 }
 
 body {
   text-align: center;
-  padding-top: 16rem;
+  padding-top: 30rem;
   background-image: url(./assets/forrestdark.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,7 +46,7 @@ p {
   line-height: 2.4rem;
   margin-bottom: 7.2rem;
   color: #ffffff;
-  opacity: 0.7;
+  opacity: .7;
 }
 
 a {
@@ -76,12 +76,12 @@ a:hover,
 }
 
 .linksSocialNetworks a img {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .linksSocialNetworks a {
   background: transparent;
   opacity: 1;
-  padding: 1rem;
+  padding: 2rem;
 }
