@@ -19,7 +19,6 @@ body {
 
   display: grid;
   place-content: center;
-
 }
 
 h1 span {
@@ -37,16 +36,16 @@ p {
   font-weight: 500;
   font-size: 2rem;
   line-height: 3rem;
-
+  color: #0b0c0e;
   margin-bottom: 7.2rem;
 }
 
 a {
-   color: #ebf1fb;
-   padding: 1.6rem 3.2rem;
-   font-weight: 600;
-   font-size: 2.4rem;
-   line-height: 2.4rem;
+  color: #ebf1fb;
+  padding: 1.6rem 3.2rem;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
 }
 
 a:hover,
@@ -55,4 +54,28 @@ a:hover,
   border-radius: 0.8rem;
   color: #0b0c0e;
   text-decoration: none;
+}
+
+.btn-primary:hover {
+   background:#3cc0ac; 
+   transition: all 0.3s ease-in;
+}
+
+.linksSocialNetworks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.linksSocialNetworks a img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.linksSocialNetworks a {
+  background: transparent;
+  opacity: 1;
+  padding: 2rem;
 }
