@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Spectral", serif;
+  text-align: center;
+  background: url(./assets/healthy.jpg) no-repeat center/cover;
+  height: 100vh;
+  color: #ebf1fb;
+
+  display: grid;
+  place-content: center;
+
+}
+
+h1 span {
+  color: #5eead4;
+}
+
+h1 {
+  font-family: "Beth Ellen", cursive;
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 12rem;
+}
+
+p {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  margin-bottom: 7.2rem;
+}
+
+a {
+   color: #ebf1fb;
+   padding: 1.6rem 3.2rem;
+   font-weight: 600;
+   font-size: 2.4rem;
+   line-height: 2.4rem;
+}
+
+a:hover,
+.btn-primary {
+  background: #5eead4;
+  border-radius: 0.8rem;
+  color: #0b0c0e;
+  text-decoration: none;
+}
